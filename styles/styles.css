@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: zilla slab;
+    background-color:#2D332E;
+    color: #f7f6f6;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr 2fr 1fr;
+}
+
+.nav-bar {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: #2D332E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 5px;
+   
+}
+.navbar-nav { 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin: 5px;
+  
+}
+.navbar-brand  {
+    display:flex;
+    color: white; 
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.navbar-nav .nav-link  {
+    color: white ;
+    font-size: 1.1em;
+}
+
+.nav-bar .icon-style {
+    color: white;
+    font-size: 1.5em;
+    padding:5px;
+
+}
+.navbar-toggler {
+    border-color: white; /* Toggler button white */
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Toggler icon white */
+    color: white;
+}
+
+.main-content {
+    grid-column:1/5;
+    grid-row: 2/3;
+    background-color: #D4C2AD;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    border: 2px solid #f7f6f6;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 1px 1px #f7f6f6;
+}
+
+.hero-image {
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.main-content .hero-text{
+    
+}

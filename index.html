@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+  />
+    <title>Document</title>
+    <style>
+        .nav-bar{
+            background-color: #2D332E;
+            color: white;
+        }
+        .nav-link{
+            color: white;
+            font-size: 1.1em;
+            
+        }
+        .nav-link:hover{
+            color: white;
+            font-weight: lighter;
+            transition-duration: 0.5s;   
+        }
+        .nav-link.active{
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<div class="nav-bar">
+    <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="#">UNIQUE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- <div class="navbar-nav "> -->
+                <div class="nav navbar-nav nav-tabs " style="width: 100%">
+              <a class="nav-link active" aria-current="page" style="font-size: 1.1em ;" href="./index.html">HOME</a>
+              <a class="nav-link" href="#">SKINCARE</a>
+              <a class="nav-link" href="#">ACCESSORIES</a>
+              <a class="nav-link" href="#">OUR INGREDIENTS</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  style="font-size: 1.1em; color: white;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT US</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" style="font-family: zilla slab; color: rgb(64, 64, 64);" href="#">Our Story</a></li>
+                  <li><a class="dropdown-item"style="font-family: zilla slab; color: rgb(64, 64, 64);" href="#">Sustainability & Social Impact</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" style="font-family: zilla slab; color: rgb(64, 64, 64);" href="#">Learn More</a></li>
+                </ul>
+              </li>
+              <a class="nav-link" href="#">REVIEWS</a>
+              <a class="nav-link" href="#">MY SUBSCRIPTION</a>
+             <!-- shopping cart icon -->
+                <a class="nav-link icon-style" href="#"> <i class="bi bi-bag-heart-fill"></i></a>
+                <a class="nav-link icon-style" href="#"> <i class="bi bi-person-fill"></i></a>
+
+            </div>
+          </div>
+      </nav>
+    </div>
+    <div class="main-content" >
+            <img src="./images//UNIQUE.webp" alt="hero-image" class="hero-image">
+            <div class="hero-text">
+                <h1>CLINICALLY TESTED</h1>
+                <h3>HEALTHIER SKIN IN JUST 4 WEEKS</h3>
+                <button class="btn btn-primary">ORDER YOUR UNIQUE</button>
+            </div>
+           
+
+        
+        
+       
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
