@@ -80,11 +80,11 @@ body{
     background-color: #D4C2AD;
     display: flex;
     flex-direction: row;
-    margin: 10px 20px;
+    margin: 0px 30px;
     border: 2px solid #f7f6f6;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 5px 1px 1px #f7f6f6;
+    
 }
 
 .hero-image {
@@ -93,6 +93,83 @@ body{
     border-radius: 20px;
 }
 
-.main-content .hero-text{
+.main-content .hero-text {
+    display: inline;
+    line-height: 20;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+
+}
+h1, h3{
+    font-weight:lighter;
+    color: #fcfbfb;
+    text-shadow: 5px -1px 7px #000000; 
+
+}
+h1 {
+    font-size: 2.5em;
+    margin: 30px auto 100px auto;
+}
+
+h3 {
+    font-size: 3.5em;
+    margin: 100px auto 50px auto;
+}
+
+.btn-primary {
+    background-color: #2D332E;
+    color: white;
+    border: 1px;
+    padding: 20px 30px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    margin: auto;
+    font-size: medium;
     
+}
+
+.btn-primary:hover {
+    background-color: #445047;
+    padding: 20px 35px;
+    font-size: 1.3em;
+    border-radius: 60px;
+    margin: auto;
+    font-size: medium;
+}
+
+.product_section{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6EFE7;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: black;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.description-div h6{
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom:70px;
+}
+
+.secondary-txt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+    
+    
+}
+
+.secondary-txt h2{
+    font-size: 1.5em;
+    align-items: flex-start;
+    justify-items: flex-start;
+    justify-content: start;
+
 }
